@@ -7,7 +7,7 @@ export const data=[
         id:1,
         name:"Web Site Portfolio",
         image:WebSitePortfolio,
-        github:"",
+        github:"https://github.com/SamyOffer/Portfolio",
         live:"",
     },
     {

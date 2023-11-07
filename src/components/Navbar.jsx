@@ -4,7 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonFill } from "react-icons/bs";
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import CV from "../assets/CV_OFFER_SAMY_06.pdf";
+import CV from "../assets/CV_SAMY_OFFER_FINAL.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -125,7 +125,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href={CV}
-              download="CV_OFFER_SAMY_06.pdf"
+              download="CV_OFFER_SAMY.pdf"
             >
               Resume <BsFillPersonFill size={30} />
             </a>

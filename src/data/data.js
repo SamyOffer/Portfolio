@@ -8,21 +8,18 @@ export const data=[
         name:"Web Site Portfolio",
         image:WebSitePortfolio,
         github:"https://github.com/SamyOffer/Portfolio",
-        live:"",
     },
     {
         id:2,
         name:"Ressourcerie Web Site",
         image:Ressourcerie,
         github:"https://github.com/SamyOffer/Ressourcerie",
-        live:"",
     },
     {
         id:3,
         name:"Todo JS Application",
         image:TodoWebSite,
-        github:"",
-        live:"",
+        github:"https://github.com/e-vinci/web2-2022-project-group-14",
     }
 
 

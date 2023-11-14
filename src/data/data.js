@@ -2,6 +2,7 @@ import TodoWebSite from '../assets/projects/TodoWebSite.png'
 import Ressourcerie from '../assets/projects/ressourcerie.png'
 import WebSitePortfolio from '../assets/projects/WebSitePortfolio.png'
 import PomodoroTimer from '../assets/projects/PomodoroTimer.png'
+import SneakersShop from '../assets/projects/SneakersShop.png'
 
 export const data=[
     {
@@ -23,10 +24,16 @@ export const data=[
         github:"https://github.com/e-vinci/web2-2022-project-group-14",
     },
     {
-        id:3,
-        name:"Pomodoro Timer JS/Recat Application",
+        id:4,
+        name:"Pomodoro Timer JS/React Application",
         image:PomodoroTimer,
         github:"https://github.com/SamyOffer/Pomodoro-react-app",
+    },
+    {
+        id:5,
+        name:"Sneaker's Shop JS/React Application",
+        image:SneakersShop,
+        github:"https://github.com/SamyOffer/sneakers_shop",
     }
 
 

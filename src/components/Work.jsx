@@ -1,10 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 import { data } from "../data/data.js";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+import Modal from "@mui/material/Modal";
+import ReactMarkdown from "react-markdown";
+
+const style = {
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
+  width: 1000,
+  bgcolor: "background.paper",
+  border: "2px solid #000",
+  boxShadow: 24,
+  p: 4,
+};
+
 
 const Work = () => {
-  // projects file
   const project = data;
-  //setProject(data);
+
+  // Utilisez un tableau d'états pour gérer l'ouverture de chaque modal
+  const [openArray, setOpenArray] = React.useState(
+    Array(project.length).fill(false)
+  );
+
+  const handleOpen = (index) => {
+    const newOpenArray = [...openArray];
+    newOpenArray[index] = true;
+    setOpenArray(newOpenArray);
+  };
+
+  const handleClose = (index) => {
+    const newOpenArray = [...openArray];
+    newOpenArray[index] = false;
+    setOpenArray(newOpenArray);
+  };
 
   return (
     <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
@@ -26,13 +58,11 @@ const Work = () => {
               className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div "
             >
-              {/* Hover effect for images */}
               <div className="opacity-0 group-hover:opacity-100 ">
-                <span className="text-2xl font bold text-white tracking-wider ">
+                <span className="text-2xl font-bold text-white tracking-wider ">
                   {item.name}
                 </span>
                 <div className="pt-8 text-center ">
-                  {/* eslint-disable-next-line */}
                   <a href={item.github} target="_blank">
                     <button
                       className="text-center rounded-lg px-4 py-3 m-2
@@ -41,7 +71,37 @@ const Work = () => {
                       Code
                     </button>
                   </a>
-                  {/* eslint-disable-next-line */}
+                  <button
+                    onClick={() => handleOpen(index)}
+                    className="text-center rounded-lg px-4 py-3 m-2
+                       bg-white text-gray-700 font-bold text-lg"
+                  >
+                    Presentation
+                  </button>
+                  <Modal
+                    open={openArray[index]}
+                    onClose={() => handleClose(index)}
+                    aria-labelledby="modal-modal-title"
+                    aria-describedby="modal-modal-description"
+                  >
+                    <Box sx={style}>
+                      <Typography
+                        id="modal-modal-title"
+                        variant="h6"
+                        component="h2"
+                      >
+                        {item.name}
+                      </Typography>
+                      <div style={{ maxHeight: '400px', overflowY: 'auto' }}>
+                        <ReactMarkdown
+                          id="modal-modal-description"
+                          components={{ p: Typography }}
+                        >
+                          {item.description}
+                        </ReactMarkdown>
+                      </div>
+                    </Box>
+                  </Modal>
                 </div>
               </div>
             </div>

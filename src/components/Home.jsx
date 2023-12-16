@@ -12,7 +12,13 @@ const Home = () => {
         <p className='text-pink-600'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Samy Offer</h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a Full Stack Developer.</h2>
-        <p className='text-[#8892b0] py-4 max-w-[700px]'>I'm a full satck developer in both front-end and back-end development. I specialize in creating user-friendly interfaces and robust server-side solutions to build efficient and comprehensive software applications.</p>
+        <div className='text-[#8892b0] py-4 max-w-[700px]'>
+        <p className='text-[#8892b0] py-4 max-w-[700px]'>I'm a full satck developer in both front-end and back-end development. 
+        I specialize in creating user-friendly interfaces and robust server-side solutions to build efficient and comprehensive software applications.</p>
+        <p> Actually I'm a student at "Haute école léonard de Vinci - Paul Lambin", currently on Erasmus at "IUT Montpellier" for my third year, I'm planning to do my master's in Montreal. 
+        </p>
+        </div>
+        
 
         {/* Button */}
         <div>

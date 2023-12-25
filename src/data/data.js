@@ -3,6 +3,7 @@ import Ressourcerie from '../assets/projects/ressourcerie.png'
 import WebSitePortfolio from '../assets/projects/WebSitePortfolio.png'
 import PomodoroTimer from '../assets/projects/PomodoroTimer.png'
 import SneakersShop from '../assets/projects/SneakersShop.png'
+import Algorithm from '../assets/projects/Algorithme.png'
 
 export const data=[
     {
@@ -114,7 +115,31 @@ This solo project involved the development of a Pomodoro Timer application using
         github:"https://github.com/SamyOffer/sneakers_shop",
         description:`- Loading...`
 
+    },
+    {
+        id:6,
+        name:"Algorithm Project",
+        image:Algorithm,
+        github:"https://github.com/SamyOffer/Projet_Djikstra_BFS_DFS",
+        description:`
+The aim of this Java project was to find the shortest and fastest paths between different points in a graph. \n
+To achieve this goal, I implemented the Dijkstra and BFS (Breadth-first search) / DFS (Depth-First Search) algorithms.
+
+**Technologies Used:**
+- Java
+
+**Project Duration**
+- It took me 2 weeks to complete this project.
+
+**Work Methods and Results**
+- Implemented Dijkstra and BFS/DFS algorithms for finding shortest and fastest paths in a graph.
+
+**Skills Acquired**
+
+* Utilized Dijkstra and BFS/DFS algorithms for finding the shortest and fastest paths
+* Java programming
+   
+
+`
     }
-
-
 ]

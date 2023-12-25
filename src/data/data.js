@@ -4,6 +4,7 @@ import WebSitePortfolio from '../assets/projects/WebSitePortfolio.png'
 import PomodoroTimer from '../assets/projects/PomodoroTimer.png'
 import SneakersShop from '../assets/projects/SneakersShop.png'
 import Algorithm from '../assets/projects/Algorithme.png'
+import Backup_Project from '../assets/projects/Backup_Project.png'
 
 export const data=[
     {
@@ -139,6 +140,35 @@ To achieve this goal, I implemented the Dijkstra and BFS (Breadth-first search) 
 * Utilized Dijkstra and BFS/DFS algorithms for finding the shortest and fastest paths
 * Java programming
    
+
+`
+    },
+    {
+        id:7,
+        name:"Backup Project",
+        image:Backup_Project,
+        github:"https://github.com/SamyOffer/TD-Cloud-Sauvegarde-Client",
+        description:`
+This application has been developed to simplify the file backup process by allowing the user to specify file extensions to be backed up in 
+addition to the basic ones: "txt, pdf, jpg, jpeg, png, docx, xlsx, mp3, mp4, html". 
+Files are XOR-encrypted on the client side before being sent to the server. 
+The client also decrypts the data when it retrieves it from the server.
+
+**Technologies Used:**
+- Java, JavaFX
+
+**Project Duration**
+- It took me 2 weeks to complete this project with my teammates.
+
+**Work Methods and Results**
+- Implemented Client/Server architecture. We used JavaFX to make a GUI for the client side.
+- Implemented XOR encryption/decryption algorithm.
+
+**Skills Acquired**
+
+* XOR encryption/decryption algorithm
+* Client/Server architecture
+* JavaFX GUI development 
 
 `
     }

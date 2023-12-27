@@ -68,7 +68,24 @@ The "ressourcerie" project is one that I carried out with 4 other people. This p
         image:TodoWebSite,
         github:"https://github.com/e-vinci/web2-2022-project-group-14",
         description:`
-- Loading...
+The "ToDo" project is a task management application designed to assist users in achieving their goals. 
+I implement this project with 3 other people.
+Users can log in or register to access the platform. Once registered, they can start adding tasks to their to-do list, 
+assigning difficulty levels to each task. 
+The application incorporates a gamified aspect where users create a combatant character at registration, 
+possessing health points (HP), attack points, and a level, starting at level 1. Completing tasks earns users experience 
+points (XP) and HP, allowing them to combat enemies listed in a dropdown menu. 
+
+**Technologies Used:**
+- JavaScript, Node.js, Bootstrap, Eslint, Prettier
+
+**Project Duration:**
+- 2 months
+
+**Work Methods and Results**
+- We used a REST API to manage the data.
+- Bcrypt to encrypt the passwords.
+- MVC architecture. 
 `
 
     },

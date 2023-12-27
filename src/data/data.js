@@ -64,7 +64,7 @@ The "ressourcerie" project is one that I carried out with 4 other people. This p
     },
     {
         id:3,
-        name:"ToDo",
+        name:"ToDo Web Site",
         image:TodoWebSite,
         github:"https://github.com/e-vinci/web2-2022-project-group-14",
         description:`

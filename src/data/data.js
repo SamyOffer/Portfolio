@@ -126,6 +126,7 @@ This solo project involved the development of a Pomodoro Timer application using
 `
 
     },
+    /*
     {
         id:5,
         name:"Sneaker's Shop",
@@ -134,6 +135,7 @@ This solo project involved the development of a Pomodoro Timer application using
         description:`- Loading...`
 
     },
+    */
     {
         id:6,
         name:"Algorithm Project",

@@ -9,7 +9,7 @@ import Backup_Project from '../assets/projects/Backup_Project.png'
 export const data=[
     {
         id:1,
-        name:"Web Site Portfolio",
+        name:"Portfolio Web Site",
         image:WebSitePortfolio,
         github:"https://github.com/SamyOffer/Portfolio",
         description:`
@@ -64,7 +64,7 @@ The "ressourcerie" project is one that I carried out with 4 other people. This p
     },
     {
         id:3,
-        name:"Todo",
+        name:"ToDo",
         image:TodoWebSite,
         github:"https://github.com/e-vinci/web2-2022-project-group-14",
         description:`

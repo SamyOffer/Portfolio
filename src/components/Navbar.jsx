@@ -2,9 +2,11 @@ import Logo from "../assets/logo2.png";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonFill } from "react-icons/bs";
+import { PiStudentDuotone} from "react-icons/pi";
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import CV from "../assets/CV_SAMY_OFFER_FINAL.pdf";
+import Apprentissage_BUT3 from "../assets/Apprentissage_BUT3.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -125,9 +127,19 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href={CV}
-              download="CV_OFFER_SAMY.pdf"
+              download="CV_OFFER_SAMY.docx"
             >
               Resume <BsFillPersonFill size={30} />
+            </a>
+          </li>
+          {/* Apprentissage_BUT3 */}
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-600">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href={Apprentissage_BUT3}
+              download="Apprentissage_BUT3.pdf"
+            >
+              learning BUT3 <PiStudentDuotone size={30} />
             </a>
           </li>
         </ul>

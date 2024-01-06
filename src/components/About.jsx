@@ -23,7 +23,14 @@ const About = () => {
             <div>
               <p>I'm a passionate young developer with a strong love for coding. 
                 I enjoy crafting small applications in my spare time as well as contributing to large-scale projects. 
-                My enthusiasm for coding drives me to explore and create innovative software solutions.</p>  
+                My enthusiasm for coding drives me to explore and create innovative software solutions.
+                In addition to my coding journey, I completed my secondary education at Athénée Ganenou. Subsequently, 
+                I pursued a bachelor's degree in Computer Science at "Haute Ecole Leonard de Vinci - Paul Lambin." 
+                <p>During my academic journey, I had the opportunity to broaden my horizons through an Erasmus exchange program 
+                at the Institute of Technology in Montpellier, specializing in the deployment of communicative and secure 
+                applications (DACS). </p> 
+                This experience not only enhanced my technical skills but also provided me with a global 
+                perspective on the field.</p>  
             </div>
           </div>
       </div>

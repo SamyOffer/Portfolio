@@ -9,6 +9,8 @@ import CSS from "../assets/css.png";
 import DOCKER from "../assets/docker-icon-512x438-ga1hb37h.png";
 import GitHub from "../assets/github.png";
 import C from "../assets/C_Programming_Language.svg.png";
+import tailwindcss from "../assets/tailwindcss.png";
+import nodejs from "../assets/nodejs.png";
 
 const Skills = () => {
   return (
@@ -54,7 +56,14 @@ const Skills = () => {
             <img className="w-20 mx-auto" src={C} alt="HTML icon" />
             <p className="my-4">C</p>
           </div>
-
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto mt-10" src={tailwindcss} alt="HTML icon" />
+            <p className="my-4">tailwindcss</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto mt-10" src={nodejs} alt="HTML icon" />
+            <p className="my-4">nodejs</p>
+          </div>
         </div>
         
       </div>

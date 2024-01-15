@@ -126,16 +126,16 @@ This solo project involved the development of a Pomodoro Timer application using
 `
 
     },
-    /*
+    
     {
         id:5,
         name:"Sneaker's Shop",
         image:SneakersShop,
-        github:"https://github.com/SamyOffer/sneakers_shop",
+        github:"https://github.com/SamyOffer/Sneakers_ShopV2",
         description:`- Loading...`
 
     },
-    */
+    
     {
         id:6,
         name:"Algorithm Project",
